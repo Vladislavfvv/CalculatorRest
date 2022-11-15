@@ -1,0 +1,61 @@
+GET http://localhost:8080/user/findAll
+
+###
+
+POST http://localhost:8080/user/save
+Content-Type: application/json
+
+{
+  "name": "Test3",
+  "age": 28
+}
+
+###
+
+POST http://localhost:8080/calc/operation
+Content-Type: application/json
+
+{
+    "num1": 20,
+    "num2": 30,
+    "operation": "sum"
+}
+
+###
+
+POST http://localhost:8080/calc/operation
+Content-Type: application/json
+
+{
+  "num1": 20,
+  "num2": 30,
+  "operation": "div"
+}
+
+###
+
+POST http://localhost:8080/calc/operation
+Content-Type: application/json
+
+{
+  "num1": 20,
+  "num2": 30,
+  "operation": "mul"
+}
+
+###
+GET http://localhost:8080/calc/findAll
+
+###
+
+POST http://localhost:8080/user/save
+Content-Type: application/json
+
+{
+  "firstname": "Test",
+  "secondName": "sdfsdf",
+  "email": "DSFSDFsdfsdf@sfgfdg.ru",
+  "password": 123465
+}
+
+###
